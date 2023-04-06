@@ -1,0 +1,26 @@
+---
+title: "Punishment page"
+author: "Carmen Garcia-Russell"
+date: '2023-01-19'
+output:
+  html_document:
+    theme: darkly
+---
+Here is where I will put my punishment experimentation information
+
+
+
+
+Literature Review will go here
+
+_is this sentence in italics?_
+
+__is this sentence in bold?__
+
+## is this sentence larger?
+
+## __is this sentence larger and bolder?__
+
+![](/Users/cgarcia394/Documents/advancedday1/meme.png)
+
+

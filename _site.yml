@@ -1,0 +1,31 @@
+name: "my-website"
+navbar:
+  title: "Garcia-Russell"
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Punishment"
+      href: about.html
+    - text: "Punishment Data"
+      menu:
+        - text: "Summar of Results"
+        - text: "T-Test"
+          href: page-a.html
+        - text: "Two-Way Ancova"
+          href: page-b.html
+        - text: "---------"
+        - text: "For Future"
+        - text: "NIS Scale"
+          href: page-c.html
+        - text: "Results"
+          href: page-d.html
+    - text: "Shiny App"
+      menu:
+      - text: "iris project"
+        href: iris_project.html
+      - text: "preschool project"
+        href: preschool_project.html
+      - text: "Skin Hue and Punishment"
+        href: skin_hue_punishment.html
