@@ -1,5 +1,5 @@
 ---
-title: "Survey"
+title: "T-Test"
 author: "Carmen Garcia-Russell"
 date: '2023-03-02'
 output:
@@ -12,4 +12,6 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 ```
 
-Survey goes here
+After all questions about the crime were asked and answers the participants were asked on a scale of 1-10 how dark skinned did you think the mug shot was? A t-test was ran and the results showed p < 0.05, this tells us that participants did see a difference in skin hue, participants rated the dark-skinned mug shot at a mean of 5.07 and the light-skinned mug shot at a mean of 3.84.
+
+This question upset several of the participants. Some of them figured out that the study was not about crime alone, but was about racism or colorism. Them being upset was interpreted as they were upset they were tricked, or that maybe their answers could make them look racist. A few of the students refused to answer the question stating that the skin color of the criminal should not matter. However, my hypothesis was that it does matter, that at this point in time, racist, colorist, or not biased at all, people will still see a difference in skin hue.

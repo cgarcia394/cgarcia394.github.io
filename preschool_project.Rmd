@@ -1,5 +1,5 @@
 ---
-title: "preschool_project"
+title: "Preschool Students and Anxiety Project"
 author: "Carmen Garcia-Russell"
 date: '2023-04-06'
 output:
@@ -7,4 +7,14 @@ output:
     theme: darkly
 ---
 
-Our project here
+## __Fresno Pacific University in collaboration with the University of Heidelberg and DKFZ __
+
+__Authors__
+
+Sörgel, C., Wolfart, R., Lake, E., Garcia-Russell, C., Böck, B., & Angel, P. 
+
+__Abstract__
+
+  The Covid-19 Pandemic has impacted the entire world. While social distancing measures were necessary in order to protect the physical health of the population, it is questionable how it impacted individuals mental health during and after the pandemic. This study examines how those social distancing measures have impacted anxiety levels (general, separation, social anxiety) as well as the development of the theory of mind in young children (age 4-6) and if it has impacted children differently in different countries. The study was conducted in Heidelberg, Germany and Fresno, California and consisted of 39 child participants. To examine the anxiety levels the Preschool Parent Report Spence Anxiety Scale was handed to parents and the Sally-Anne Task was performed with each child to examine their theory of mind. The pandemic impacted the two populations differently since the American sample group had significantly higher social anxiety scores in comparison to the German sample group (p = 0.0369). This project discusses what differences could have led to the above difference
+
+![](https://raw.githubusercontent.com/jvanster/Psych_495_SP23/main/PreschoolDone.jpg) 
