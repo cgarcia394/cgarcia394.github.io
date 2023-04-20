@@ -1,5 +1,5 @@
 ---
-title: "NIS Scale"
+title: "Survey"
 author: "Carmen Garcia-Russell"
 date: '2023-03-02'
 output:
@@ -12,15 +12,4 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 ```
 
-NIS Skin Color Scale was used in this experiment. 
-
-[Click Here for Scale](https://nis.princeton.edu/downloads/nis-skin-color-scale.pdf)
-
-Massey, Douglas S., Camille Z. Charles, Garvey Lundy, and Mary J. Fischer. 2003. The Source of the River: The Social Origins of Freshmen at America's Selective Colleges and Universities. Princeton: Princeton University Press.
-
-Using the NIS Skin Color Scale, the mug shot editing was chosen 2.5 shades darker than the original (left). The original mugshot was rated at a 3, and the photoshopped mugshot (right) at 5.5.
-
-My brother Dr. Gabriel Garcia of the Univeristy of New Mexico was the model for the mugshots. Skin hue editing was done by [Andres Salazar Photography]() 
-
-![Light Skinned Mug Shot](https://raw.githubusercontent.com/jvanster/Psych_495_SP23/main/001-1%20Small.jpeg)
-![Dark Skinned Mug Shot](https://raw.githubusercontent.com/jvanster/Psych_495_SP23/main/003-1%20Small.jpeg)
+Survey goes here

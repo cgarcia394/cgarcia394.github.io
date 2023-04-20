@@ -15,20 +15,10 @@ library(tidyverse)
 
 Experimental Psychology Spring Semester 2023 at Fresno Pacific University
 
-__Abstract__
+Topic Statement
 
-  Research shows that for incarcerated people skin hue can have an effect on how long their sentencing is. This study dives into the possible biases concerning skin hue and punishment of a Hispanic man. Differences in Skin Hue among the Hispanic population have a large range of shades. Biases against darker shades of skin can lead to longer and harsher incarceration sentences. The biases of skin hue within an ethnicity is known as colorism. Using photoshop 72 participants are told a man committed armed robbery and then shown either a light-skinned mugshot or a dark-skinned mugshot and asked to sentence the man. With a large Hispanic sample population, colorism was tested and there was no significant difference on sentence length of both mugshots. This shows that in the population used there was no significant colorism against the dark-skinned mug shot and no significant favoritism to the light-skinned 
-  
-__Colorism__
 
-Prejudice or discrimination against individuals with a dark skin tone, typically among people of the same ethnic or racial group.
+My topic is skin hue and punishment among the Hispanic community. If a Hispanic man does the same crime will his skin hue matter when it comes to sentencing his punishment? Lots of research is done for black American men. I would like to see if these skin hue biases exist for Hispanic men too. I want to see if there are biases among undergraduate students. I have my guess that darker skin hue will have harsher punishments. I am leaning towards only two versions of a mug shot, the same model with photoshopped skin hue (using NIS skin color scale). Same crime story, same punishment questions at the end. 
 
-__Racism__
 
-Prejudice, discrimination, or antagonism by an individual, community, or institution against a person or people on the basis of their membership in a particular racial or ethnic group, typically one that is a minority or marginalized.
 
-__Differences__
-
-Simply put, colorism happens more within an ethnicity, and is purely based on the color of a person's skin. It is easy to see colorism and racism as the same thing, however the difference matters when it comes to incarceration. Of American men, Black men have the highest incarceration rates. Within the incarcerated American black men those with darker skin hue have longer sentences than their lighter skinned counterparts. This proved true for incarcerated American Hispanic men as well. 
-
-In this study the majority of the participants were Hispanic (42 out of 72). Because of this studying colorism instead of racism makes more sense. The study used a fictional Hispanic man named Mr. Hernandez who was pictured in the mugshots by the researchers brother, Dr. Garcia.

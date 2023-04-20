@@ -7,5 +7,7 @@ output:
     theme: darkly
 
 ---
-
+```{r set up, include=FALSE}
+library(tidyverse)
+```
 [Shiny App for incarceration information](https://49amdf-carmen-garcia.shinyapps.io/prisondatashiny3/)
