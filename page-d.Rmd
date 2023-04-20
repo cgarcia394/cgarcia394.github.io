@@ -1,5 +1,5 @@
 ---
-title: "Results"
+title: "Going Forward"
 author: "Carmen Garcia-Russell"
 date: '2023-03-02'
 output:
@@ -14,4 +14,9 @@ library(tidyverse)
 
 
 
-Results of dark skinned mug shot go here
+__Discussion Section__
+
+  Unfortunately, the typo in the third slide was not caught until after I had already started administering the experiment and could not change it. Surprisingly enough, no participants pointed out the typo or asked for clarification. 
+This was a pilot research project, and if retesting is done a much larger sample size would be needed. One of the sampling errors that occurred was that the majority of the participants were Hispanic and did not reflect the population of Fresno Pacific University as a whole. Because there was a very low p-value on the t-test testing to see if participants did see a difference in skin color it can be thought that within the Hispanic community at Fresno Pacific University there is not colorism present for this experiment. This wasn’t the intent of the study but a finding that helps further research at this University. Because the students could tell the difference between the skin hues this study was set up well, just not executed to its full potential.
+The University is very diverse in students, however the researcher found mostly willing participants within the Hispanic community. Reasons for this could be the researchers is also Hispanic and unconsciously favored the areas that Hispanic students hang out at the most. There could also be more trust in the Hispanic community to work with another Hispanic student. This pilot study was done within one semester. If this study could have been drawn out over a whole school year it may have been much easier to not only have more participants but to also have more diverse participants.
+One of the concerns during this experiment was setting. The slideshow was done on a MacBook Air with the brightness turned all the way up, however, when outsides participants had to move the computer screen up or down to see it better or shift their seat to avoid the sun. Although participants did see a difference in Skin Hue further testing should have the slideshow only indoors. Other concerns on location was noise. One participant was viewing the slideshow in the Commuter House at Fresno Pacific University while other students were throwing a large stuffed dinosaur in the background while laughing loudly. This light-hearted mood and distracting objects being thrown could have changed the serious mood of the slideshow. This is one example of many where other students in the background were distracting. Allowing the slideshow to be shown anywhere helped the researcher get 72 participants in a decent amount of time, but it also opened the experiment to have many confounds. 

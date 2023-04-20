@@ -316,18 +316,27 @@ $(document).ready(function () {
 </div>
 
 
-<p>After all questions about the crime were asked and answers the
-participants were asked on a scale of 1-10 how dark skinned did you
-think the mug shot was? A t-test was ran and the results showed p &lt;
-0.05, this tells us that participants did see a difference in skin hue,
-participants rated the dark-skinned mug shot at a mean of 5.07 and the
-light-skinned mug shot at a mean of 3.84.</p>
-<p>This question upset several of the participants. Some of them figured
-out that the study was not about crime alone, but was about racism or
-colorism. Them being upset was interpreted as they were upset they were
-tricked, or that maybe their answers could make them look racist. A few
-of the students refused to answer the question stating that the skin
-color of the criminal should not matter.</p>
+<p>When testing to see if participants saw a difference in skin hue a
+t-test was run and there was on average a significant difference on the
+perception between the dark-skinned mug shot (M=5.07, SE = 0.29), and
+the light-skinned mug shot (M= 3.84, SE = 0.29). This difference, 1.23,
+95% CI[0.59, 0.6] was significant p = 0.004.</p>
+<p>In other words, this study was set up well, and if done with a larger
+sample population may have different results. People did see a
+difference in the mugshot’s skin hue. They rated the original photo at
+3.84 and the dark-skinned mugshot at at 5.07.</p>
+<pre class="r"><code>Number &lt;- tribble(~ Ethnicity, ~ Number,
+                   &quot;Hispanic&quot;, &quot;42&quot;,
+                  &quot;Non Hispanic&quot;, &quot;29&quot;)
+
+#Graph
+ggplot(Number,
+       aes(x = Ethnicity, y = Number)) +
+  geom_bar(stat = &quot;identity&quot;,
+           fill = &quot;darkgreen&quot;) +
+labs(title = &quot;Demographics&quot;,
+       y=&quot;Sample Population&quot;, x=&quot;Ethnicity&quot;)</code></pre>
+<p><img src="page-a_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 
 
 
