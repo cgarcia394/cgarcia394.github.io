@@ -1,0 +1,33 @@
+---
+title: "T-Test"
+author: "Carmen Garcia-Russell"
+date: '2023-03-02'
+output:
+  html_document:
+    theme: darkly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+When testing to see if participants saw a difference in skin hue a t-test was run and there was on average a significant difference on the perception between the dark-skinned mug shot (M=5.07, SE = 0.29), and the light-skinned mug shot (M= 3.84, SE = 0.29). This difference, 1.23, 95% CI[0.59, 0.6] was significant p = 0.004.
+
+In other words, this study was set up well, and if done with a larger sample population may have different results. People did see a difference in the mugshot's skin hue. They rated the original photo at 3.84 and the dark-skinned mugshot at at 5.07.
+
+```{r}
+Number <- tribble(~ Ethnicity, ~ Number,
+                   "Hispanic", "42",
+                  "Non Hispanic", "29")
+
+#Graph
+ggplot(Number,
+       aes(x = Ethnicity, y = Number)) +
+  geom_bar(stat = "identity",
+           fill = "darkgreen") +
+labs(title = "Demographics",
+       y="Sample Population", x="Ethnicity")
+
+```
+
