@@ -11,11 +11,11 @@
 
 <meta name="author" content="Carmen Garcia-Russell" />
 
-<meta name="date" content="2023-03-02" />
+<meta name="date" content="2023-04-06" />
 
-<title>T-Test</title>
+<title>skin_hue_punishment</title>
 
-<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/darkly.min.css" rel="stylesheet" />
@@ -34,8 +34,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -64,7 +64,6 @@ if (window.hljs) {
 
 
 
-
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -85,9 +84,6 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
-}
-details > summary > p:only-child {
-  display: inline;
 }
 pre code {
   padding: 0;
@@ -145,15 +141,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -182,8 +174,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -191,9 +183,16 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "&#xe258;";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -237,7 +236,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -257,13 +256,13 @@ $(document).ready(function () {
   <a href="about.html">Punishment</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     Punishment Data
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
-    <li class="dropdown-header">Summar of Results</li>
+    <li class="dropdown-header">Summary of Results</li>
     <li>
       <a href="page-a.html">T-Test</a>
     </li>
@@ -276,13 +275,13 @@ $(document).ready(function () {
       <a href="page-c.html">NIS Scale</a>
     </li>
     <li>
-      <a href="page-d.html">Results</a>
+      <a href="page-d.html">Going Forward</a>
     </li>
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Shiny App
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Shiny Apps and More
      
     <span class="caret"></span>
   </a>
@@ -294,7 +293,7 @@ $(document).ready(function () {
       <a href="preschool_project.html">preschool project</a>
     </li>
     <li>
-      <a href="skin_hue_punishment.html">Skin Hue and Punishment</a>
+      <a href="skin_hue_punishment.html">Skin Hue and Incarceration</a>
     </li>
   </ul>
 </li>
@@ -310,23 +309,16 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">T-Test</h1>
+<h1 class="title toc-ignore">skin_hue_punishment</h1>
 <h4 class="author">Carmen Garcia-Russell</h4>
-<h4 class="date">2023-03-02</h4>
+<h4 class="date">2023-04-06</h4>
 
 </div>
 
 
-<p>When testing to see if participants saw a difference in skin hue a
-t-test was run and there was on average a significant difference on the
-perception between the dark-skinned mug shot (M=5.07, SE = 0.29), and
-the light-skinned mug shot (M= 3.84, SE = 0.29). This difference, 1.23,
-95% CI[0.59, 0.6] was significant p = 0.004.</p>
-<p>In other words, this study was set up well, and if done with a larger
-sample population may have different results. People did see a
-difference in the mugshot’s skin hue. They rated the original photo at
-3.84 and the dark-skinned mugshot at at 5.07.</p>
-<p><img src="page-a_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p><a
+href="https://49amdf-carmen-garcia.shinyapps.io/prisondatashiny3/">Shiny
+App for incarceration information</a></p>
 
 
 

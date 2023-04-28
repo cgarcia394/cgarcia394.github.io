@@ -16,7 +16,7 @@ When testing to see if participants saw a difference in skin hue a t-test was ru
 
 In other words, this study was set up well, and if done with a larger sample population may have different results. People did see a difference in the mugshot's skin hue. They rated the original photo at 3.84 and the dark-skinned mugshot at at 5.07.
 
-```{r echo=FALSE}
+```{r}
 Number <- tribble(~ Ethnicity, ~ Number,
                    "Hispanic", "42",
                   "Non Hispanic", "29")

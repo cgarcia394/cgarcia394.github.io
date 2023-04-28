@@ -10,7 +10,7 @@ navbar:
       href: about.html
     - text: "Punishment Data"
       menu:
-        - text: "Summar of Results"
+        - text: "Summary of Results"
         - text: "T-Test"
           href: page-a.html
         - text: "Two-Way Ancova"
@@ -19,9 +19,9 @@ navbar:
         - text: "For Future"
         - text: "NIS Scale"
           href: page-c.html
-        - text: "Results"
+        - text: "Going Forward"
           href: page-d.html
-    - text: "Shiny App"
+    - text: "Shiny App and More"
       menu:
       - text: "iris project"
         href: iris_project.html
