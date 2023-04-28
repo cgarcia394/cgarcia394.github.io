@@ -12,8 +12,5 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 ```
 
-Massey, Douglas S., Camille Z. Charles, Garvey Lundy, and Mary J. Fischer. 2003. The Source of the River: The Social Origins of Freshmen at America's Selective Colleges and Universities. Princeton: Princeton University Press.
-
-
 [NIS Skin Color Scale](https://nis.princeton.edu/downloads/nis-skin-color-scale.pdf)
 
